@@ -4,7 +4,7 @@
         <h6> {{date}} </h6>
         <h4 > {{ content}}</h4>
         <h2 @click="like = true" v-if="!like"> Like</h2>
-        <h2 v-else> unlike</h2>
+        <h2 @click="like = false" v-else> unlike</h2>
 
 
     </div>
